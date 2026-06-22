@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul terbaru</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+
+    <div class="hero-text">
+        <span>Pengumpulan Tugas</span>
+
+        <h1>Algoritma Pemrograman</h1>
+
+        <p>
+            Website Pengumpulan Tugas Algoritma Pemrograman
+        </p>
+    </div>
+
+    <div class="profile-card">
+
+        <img src="vena.jpeg" alt="Foto">
+
+        <h2>Maria Yovena Amun</h2>
+
+        <h3>250403010010</h3>
+
+        <p>Teknik Informatika</p>
+
+        <p>Universitas PGRI Kanjuruhan Malang</p>
+
+    </div>
+
+</header>
+
+<nav class="navbar">
+
+    <button onclick="showContent('pendahuluan')">
+        Pendahuluan
+    </button>
+
+    <button onclick="showContent('tugas1')">
+        Tugas 1
+    </button>
+
+    <button onclick="showContent('tugas2')">
+        Tugas 2
+    </button>
+
+    <button onclick="showContent('tugas3')">
+        Tugas 3
+    </button>
+
+    <button onclick="showContent('tugas4')">
+        Tugas 4
+    </button>
+
+    <button onclick="showContent('tugas5')">
+        Tugas 5
+    </button>
+
+    <button onclick="showContent('tugas6')">
+        Tugas 6
+    </button>
+
+    <button onclick="showContent('tugas7')">
+        Tugas 7
+    </button>
+
+</nav>
+
+<main>
+
+<section id="pendahuluan" class="content active">
+
+    <h2>Pendahuluan</h2>
+
+    <p>
+        Selamat datang di website pengumpulan tugas
+        Algoritma  Pemrograman.
+    </p>
+
+    <p>
+        Website ini dibuat sebagai media pengumpulan,
+        tugas Algoritma Pemrograman, dan publikasi seluruh tugas yang
+        telah dikerjakan selama proses perkuliahan.
+    </p>
+
+    <p>
+        Silakan pilih menu tugas pada navbar untuk
+        melihat isi dari masing-masing tugas.
+    </p>
+
+</section>
+
+<section id="tugas1" class="content">
+
+    <h2>Tugas 1 - Dasar Algoritma Pemrograman</h2>
+
+    <div class="task-card">
+
+        <h3>1. Contoh Algoritma Dalam Kehidupan Sehari-hari</h3>
+
+        <h4>Mengambil Uang di ATM</h4>
+
+        <ol>
+            <li>Masukkan kartu ATM ke mesin.</li>
+            <li>Pilih bahasa.</li>
+            <li>Masukkan PIN.</li>
+            <li>Pilih menu tarik tunai.</li>
+            <li>Pilih jumlah uang yang diambil.</li>
+            <li>Tunggu proses.</li>
+            <li>Ambil uang yang keluar dari mesin.</li>
+            <li>Ambil kartu ATM dan struk.</li>
+        </ol>
+
+        <h4>Membuat Kopi Dengan Rasa Manis dan Pahit Yang Pas</h4>
+
+        <ol>
+            <li>Siapkan gelas.</li>
+            <li>Masukkan 1 sendok kopi.</li>
+            <li>Masukkan 1–2 sendok gula sesuai selera.</li>
+            <li>Tuangkan air panas.</li>
+            <li>Aduk hingga tercampur.</li>
+            <li>Cicipi kopi.</li>
+            <li>Jika terlalu pahit, tambahkan gula.</li>
+            <li>Jika terlalu manis, tambahkan sedikit kopi.</li>
+            <li>Aduk kembali dan kopi siap diminum.</li>
+        </ol>
+
+        <h4>Menghitung Nilai y = 3x + 6</h4>
+
+        <ol>
+            <li>Masukkan nilai x.</li>
+            <li>Kalikan x dengan 3.</li>
+            <li>Tambahkan hasilnya dengan 6.</li>
+            <li>Hasilnya adalah nilai y.</li>
+            <li>Tampilkan nilai y.</li>
+        </ol>
+
+        <p><strong>Contoh:</strong></p>
+
+        <ul>
+            <li>x = 2</li>
+            <li>y = 3(2) + 6</li>
+            <li>y = 6 + 6</li>
+            <li>y = 12</li>
+        </ul>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>2. Pengertian Algoritma dan Program</h3>
+
+        <p>
+            <strong>Algoritma</strong> adalah langkah-langkah yang tersusun secara logis
+            dan sistematis untuk menyelesaikan suatu masalah.
+        </p>
+
+        <p>
+            <strong>Program</strong> adalah kumpulan instruksi yang ditulis dengan
+            bahasa pemrograman yang digunakan komputer untuk menjalankan algoritma.
+        </p>
+
+        <ul>
+            <li>Algoritma = langkah-langkah solusi.</li>
+            <li>Program = algoritma yang ditulis dalam bahasa komputer.</li>
+        </ul>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>3. Tiga Struktur Dasar Algoritma</h3>
+
+        <h4>Sekuensial (Urutan)</h4>
+
+        <p>
+            Langkah-langkah dijalankan secara berurutan dari awal sampai akhir.
+        </p>
+
+        <ul>
+            <li>Nyalakan kompor.</li>
+            <li>Rebus air.</li>
+            <li>Masukkan mie.</li>
+            <li>Semua dilakukan secara berurutan.</li>
+        </ul>
+
+        <h4>Pemilihan (Selection)</h4>
+
+        <p>
+            Algoritma melakukan pilihan berdasarkan kondisi tertentu.
+        </p>
+
+        <ul>
+            <li>Jika hujan → bawa payung.</li>
+            <li>Jika tidak hujan → tidak perlu bawa payung.</li>
+            <li>Biasanya menggunakan IF – ELSE.</li>
+        </ul>
+
+        <h4>Perulangan (Looping)</h4>
+
+        <p>
+            Langkah tertentu diulang beberapa kali sampai kondisi terpenuhi.
+        </p>
+
+        <ul>
+            <li>Menghitung 1 sampai 10.</li>
+            <li>Mengaduk kopi sampai gula larut.</li>
+            <li>Biasanya menggunakan FOR atau WHILE.</li>
+        </ul>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>4. Fungsi Bahasa Pemrograman</h3>
+
+        <ul>
+            <li>Memberi instruksi kepada komputer.</li>
+            <li>Membuat program atau aplikasi.</li>
+            <li>Mengolah data.</li>
+            <li>Mengotomatisasi pekerjaan.</li>
+            <li>Mengontrol perangkat keras (hardware).</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<section id="tugas2" class="content">
+
+    <h2>Tugas 2 - Tipe Data dan Operator Java</h2>
+
+    <div class="task-card">
+
+        <h3>1. Perbedaan Tipe Data Primitif dan Non-Primitif</h3>
+
+        <ul>
+            <li>
+                <strong>Tipe Data Primitif</strong> adalah tipe data dasar yang
+                langsung menyimpan nilai.
+            </li>
+
+            <li>
+                Contoh: <strong>int, float, char, boolean</strong>
+            </li>
+
+            <li>
+                <strong>Tipe Data Non-Primitif</strong> adalah tipe data yang
+                menyimpan referensi atau alamat ke objek.
+            </li>
+
+            <li>
+                Contoh: <strong>String, Array, Object</strong>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>2. Kesalahan Pada Penulisan Variabel</h3>
+
+        <p><strong>Kode:</strong></p>
+
+<pre>
+Int 5angka;
+String nama siswa;
+Int static;
+</pre>
+
+        <p><strong>Kesalahan:</strong></p>
+
+        <ul>
+            <li>Int → harus ditulis <strong>int</strong> (huruf kecil).</li>
+            <li>5angka → nama variabel tidak boleh diawali angka.</li>
+            <li>nama siswa → tidak boleh menggunakan spasi.</li>
+            <li>static → merupakan keyword Java sehingga tidak boleh digunakan sebagai nama variabel.</li>
+        </ul>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>3. Contoh Deklarasi Tipe Data Array</h3>
+
+<pre>
+public class Main {
+
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 2;
+
+        int hasil = a / b;
+
+        System.out.println(
+            "Hasil pembagian: " + hasil
+        );
+    }
+
+}
+</pre>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>4. Operator Aritmatika Dalam Java</h3>
+
+        <table class="custom-table">
+
+            <tr>
+                <th>Operator</th>
+                <th>Keterangan</th>
+            </tr>
+
+            <tr>
+                <td>+</td>
+                <td>Penjumlahan (menambahkan dua nilai)</td>
+            </tr>
+
+            <tr>
+                <td>-</td>
+                <td>Pengurangan (mengurangi nilai)</td>
+            </tr>
+
+            <tr>
+                <td>*</td>
+                <td>Perkalian (mengalikan nilai)</td>
+            </tr>
+
+            <tr>
+                <td>/</td>
+                <td>Pembagian (membagi nilai)</td>
+            </tr>
+
+            <tr>
+                <td>%</td>
+                <td>Modulus (menghasilkan sisa hasil bagi)</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>5. Implementasi Operator Pembagian Dalam Java</h3>
+
+<pre>
+public class Pembagian {
+
+    public static void main(String[] args) {
+
+        int a = 20;
+        int b = 4;
+
+        int hasil = a / b;
+
+        System.out.println(
+            "Hasil pembagian: " + hasil
+        );
+
+    }
+
+}
+</pre>
+
+    </div>
+
+</section>
+
+<section id="tugas3" class="content">
+
+    <h2>Tugas 3 - Algoritma Sekuensial Penghitungan Tiket Bioskop</h2>
+
+    <div class="task-card">
+
+        <h3>Studi Kasus</h3>
+
+        <p>
+            Program ini dirancang untuk menghitung total biaya pembelian
+            tiket bioskop berdasarkan jumlah tiket yang dibeli dan harga
+            tiket per unit.
+        </p>
+
+        <p>
+            Program ini termasuk contoh <strong>Algoritma Sekuensial</strong>
+            karena setiap instruksi dijalankan secara berurutan tanpa
+            percabangan maupun perulangan.
+        </p>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>Flowchart (Diagram Alir)</h3>
+
+        <ul>
+            <li>Mulai</li>
+            <li>Input jumlah tiket</li>
+            <li>Input harga tiket per unit</li>
+            <li>Hitung total harga</li>
+            <li>Tampilkan total harga</li>
+            <li>Selesai</li>
+        </ul>
+
+        <!-- Jika nanti ada gambar flowchart -->
+        <!--
+        <img src="flowchart-tiket.png"
+             alt="Flowchart Tiket Bioskop"
+             class="task-image">
+        -->
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>Pseudocode / Deskripsi Program</h3>
+
+<pre>
+Algoritma: Penghitungan_Tiket_Bioskop
+
+DEKLARASI:
+jumlah_tiket : integer
+harga_satuan : integer
+total_bayar : integer
+
+DESKRIPSI:
+1. Input jumlah_tiket
+2. Input harga_satuan
+3. Hitung total_bayar =
+   jumlah_tiket * harga_satuan
+4. Tampilkan total_bayar
+</pre>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>Program Python</h3>
+
+<pre>
+print("=== SISTEM PEMBELIAN TIKET BIOSKOP ===")
+
+# Input
+jumlah_tiket = int(
+    input("Masukkan jumlah tiket: ")
+)
+
+harga_satuan = int(
+    input("Masukkan harga per tiket: ")
+)
+
+# Proses
+total_bayar = jumlah_tiket * harga_satuan
+
+# Output
+print("-" * 35)
+print(f"Jumlah Tiket : {jumlah_tiket}")
+print(f"Harga Satuan : Rp {harga_satuan}")
+print(f"Total Bayar  : Rp {total_bayar}")
+print("-" * 35)
+
+print("Terima kasih!")
+</pre>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>Penjelasan Program</h3>
+
+        <ol>
+            <li>Pengguna memasukkan jumlah tiket yang dibeli.</li>
+            <li>Pengguna memasukkan harga tiket per unit.</li>
+            <li>Program menghitung total biaya dengan rumus:</li>
+        </ol>
+
+<pre>
+total_bayar =
+jumlah_tiket × harga_satuan
+</pre>
+
+        <ol start="4">
+            <li>Program menampilkan total biaya yang harus dibayar.</li>
+        </ol>
+
+    </div>
+
+</section>
+
+<section id="tugas4" class="content">
+
+    <h2>Tugas 4 - Algoritma Sekuensial Penghitungan Tiket Bioskop</h2>
+
+    <div class="task-card">
+        <h3>Studi Kasus</h3>
+        <p>
+            Program ini dirancang untuk menghitung total biaya pembelian
+            tiket bioskop berdasarkan jumlah tiket yang dibeli dan harga
+            tiket per unit.
+        </p>
+        <p>
+            Program ini merupakan contoh algoritma sekuensial karena
+            setiap instruksi dijalankan secara berurutan tanpa adanya
+            percabangan maupun pengulangan.
+        </p>
+    </div>
+
+    <div class="task-card">
+        <h3>Flowchart (Diagram Alir)</h3>
+        <div class="flowchart-vertical">
+            <div class="fc-node fc-start">Mulai</div>
+            <div class="fc-arrow"></div>
+            
+            <div class="fc-node fc-io">Input jumlah tiket</div>
+            <div class="fc-arrow"></div>
+            
+            <div class="fc-node fc-io">Input harga tiket per unit</div>
+            <div class="fc-arrow"></div>
+            
+            <div class="fc-node fc-process">Hitung total harga =<br>jumlah tiket × harga tiket</div>
+            <div class="fc-arrow"></div>
+            
+            <div class="fc-node fc-io">Tampilkan total harga</div>
+            <div class="fc-arrow"></div>
+            
+            <div class="fc-node fc-end">Selesai</div>
+        </div>
+    </div>
+
+    <div class="task-card">
+        <h3>Pseudocode / Deskripsi Program</h3>
+<pre>
+Algoritma: Penghitungan_Tiket_Bioskop
+
+DEKLARASI:
+jumlah_tiket : integer
+harga_satuan : integer
+total_bayar : integer
+
+DESKRIPSI:
+1. Input jumlah_tiket
+2. Input harga_satuan
+3. Hitung total_bayar =
+   jumlah_tiket * harga_satuan
+4. Tampilkan total_bayar
+</pre>
+    </div>
+
+    <div class="task-card">
+        <h3>Kode Program Python</h3>
+<pre>
+# Nama Program:
+# Algoritma Sekuensial Penghitungan Tiket
+
+print("=== SISTEM PEMBELIAN TIKET BIOSKOP ===")
+
+# Tahap Input
+jumlah_tiket = int(
+    input("Masukkan jumlah tiket: ")
+)
+
+harga_satuan = int(
+    input("Masukkan harga per tiket: ")
+)
+
+# Tahap Proses
+total_bayar = jumlah_tiket * harga_satuan
+
+# Tahap Output
+print("-" * 35)
+print(f"Jumlah Tiket : {jumlah_tiket}")
+print(f"Harga Satuan : Rp {harga_satuan}")
+print(f"Total Bayar  : Rp {total_bayar}")
+print("-" * 35)
+
+print("Terima kasih!")
+</pre>
+    </div>
+
+    <div class="task-card">
+        <h3>Contoh Perhitungan</h3>
+<pre>
+Input:
+Jumlah Tiket = 4
+Harga Tiket  = Rp 50.000
+
+Proses:
+Total Bayar = 4 × 50.000
+
+Output:
+Total Bayar = Rp 200.000
+</pre>
+    </div>
+
+</section>
+
+<section id="tugas5" class="content">
+
+    <h2>Tugas 5 - Array</h2>
+
+    <div class="task-card">
+
+        <h3>1. Apa yang Dimaksud dengan Array?</h3>
+
+        <p>
+            Array adalah struktur data yang digunakan untuk menyimpan
+            sekumpulan data atau elemen dengan tipe data yang sama
+            ke dalam satu variabel.
+        </p>
+
+        <p>
+            Setiap elemen dalam array memiliki posisi yang
+            diidentifikasi oleh indeks yang biasanya dimulai
+            dari angka 0.
+        </p>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>2. Jelaskan yang Dimaksud dengan Array 1 Dimensi</h3>
+
+        <p>
+            Array 1 dimensi adalah jenis array yang paling sederhana,
+            dimana elemen-elemennya disusun secara linear atau
+            satu baris saja.
+        </p>
+
+        <p>
+            Untuk mengakses elemen di dalamnya cukup menggunakan
+            satu buah indeks.
+        </p>
+
+        <h4>Analogi</h4>
+
+        <p>
+            Seperti deretan loker yang diberi nomor urut
+            0, 1, 2, 3, dan seterusnya.
+        </p>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>3. Bagaimana Cara Mendeklarasikan Array?</h3>
+
+        <p>
+            Cara mendeklarasikan array bergantung pada bahasa
+            pemrograman yang digunakan.
+        </p>
+
+        <h4>Contoh di Python</h4>
+
+<pre>
+# Array/List kosong
+nilai = []
+
+# Array/List berisi data
+angka = [10, 20, 30, 40, 50]
+</pre>
+
+        <h4>Contoh di C++</h4>
+
+<pre>
+int nilai[5] = {10, 20, 30, 40, 50};
+</pre>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>4. Tipe Data yang Digunakan untuk Mendeklarasikan Array</h3>
+
+        <ul>
+            <li><strong>int</strong> → Bilangan bulat.</li>
+            <li><strong>float / double</strong> → Bilangan pecahan.</li>
+            <li><strong>char</strong> → Karakter tunggal.</li>
+            <li><strong>string</strong> → Teks atau kumpulan karakter.</li>
+            <li><strong>boolean</strong> → Nilai logika (true/false).</li>
+        </ul>
+
+        <p>
+            Pada bahasa seperti C++ dan Java, seluruh elemen
+            dalam satu array harus memiliki tipe data yang sama.
+        </p>
+
+    </div>
+
+    <div class="task-card">
+
+        <h3>5. Macam-Macam Array</h3>
+
+        <ol>
+            <li>
+                <strong>Array 1 Dimensi</strong><br>
+                Array linear yang hanya memiliki satu indeks.
+            </li>
+
+            <li>
+                <strong>Array 2 Dimensi</strong><br>
+                Array yang terdiri dari baris dan kolom,
+                sering disebut matriks.
+            </li>
+
+            <li>
+                <strong>Array Multi Dimensi</strong><br>
+                Array yang memiliki lebih dari dua dimensi,
+                misalnya array 3 dimensi.
+            </li>
+        </ol>
+
+    </div>
+
+</section>
+
+<section id="tugas6" class="content">
+    <h2>Tugas 6</h2>
+
+    <p>
+        Hingga saat ini Ronaldo tetap menjadi salah satu
+        atlet paling berpengaruh di dunia.
+    </p>
+</section>
+
+
+
+
+<section id="tugas7" class="content">
+    <h2>Tugas 7</h2>
+
+    <p>
+        Hingga saat ini Ronaldo tetap menjadi salah satu
+        atlet paling berpengaruh di dunia.
+    </p>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
